@@ -59,21 +59,21 @@
     <Compile Include="Assets\Plugins\CW\Shared\Common\Examples\Scripts\CwCameraLook.cs" />
     <Compile Include="Assets\Plugins\CW\Shared\Common\Examples\Scripts\CwDemoButtonBuilder.cs" />
     <Compile Include="Assets\Plugins\CW\Shared\Common\Required\Scripts\CwInput.cs" />
-    <Compile Include="Assets\Plugins\CW\Shared\Common\Extras\Scripts\CwInputManager.cs" />
-    <Compile Include="Assets\Plugins\CW\Shared\Common\Required\Scripts\CwShaderBundle.cs" />
-    <Compile Include="Assets\Plugins\CW\Shared\Common\Required\Scripts\CwCommon.cs" />
-    <Compile Include="Assets\Plugins\CW\Shared\Common\Extras\Scripts\CwSeedAttribute.cs" />
-    <Compile Include="Assets\Plugins\CW\Shared\Common\Examples\Scripts\CwCameraPivot.cs" />
     <Compile Include="Assets\Plugins\CW\Shared\Common\Examples\Scripts\CwDemo.cs" />
     <Compile Include="Assets\Plugins\CW\Shared\Common\Extras\Scripts\CwDepthTextureMode.cs" />
     <Compile Include="Assets\Plugins\CW\Shared\Common\Examples\Scripts\CwCameraMove.cs" />
-    <Compile Include="Assets\Plugins\CW\Shared\Common\Extras\Scripts\CwRenderTextureManager.cs" />
     <Compile Include="Assets\Plugins\CW\Shared\Common\Examples\Scripts\CwRotate.cs" />
     <Compile Include="Assets\Plugins\CW\Shared\Common\Required\Scripts\CwHelper.cs" />
     <Compile Include="Assets\Plugins\CW\Shared\Common\Examples\Scripts\CwLightIntensity.cs" />
     <Compile Include="Assets\Plugins\CW\Shared\Common\Extras\Scripts\CwFollow.cs" />
     <Compile Include="Assets\Plugins\CW\Shared\Common\Required\Scripts\CwEditor.cs" />
     <Compile Include="Assets\Plugins\CW\Shared\Common\Extras\Scripts\CwChild.cs" />
+    <Compile Include="Assets\Plugins\CW\Shared\Common\Extras\Scripts\CwInputManager.cs" />
+    <Compile Include="Assets\Plugins\CW\Shared\Common\Required\Scripts\CwShaderBundle.cs" />
+    <Compile Include="Assets\Plugins\CW\Shared\Common\Required\Scripts\CwCommon.cs" />
+    <Compile Include="Assets\Plugins\CW\Shared\Common\Extras\Scripts\CwSeedAttribute.cs" />
+    <Compile Include="Assets\Plugins\CW\Shared\Common\Examples\Scripts\CwCameraPivot.cs" />
+    <Compile Include="Assets\Plugins\CW\Shared\Common\Extras\Scripts\CwRenderTextureManager.cs" />
     <Compile Include="Assets\Plugins\CW\Shared\Common\Examples\Scripts\CwDemoButton.cs" />
     <Compile Include="Assets\Plugins\CW\Shared\Common\Required\Scripts\CwGuide.cs" />
   </ItemGroup>
@@ -335,6 +335,9 @@
     <Reference Include="UnityEditor.WindowsStandalone.Extensions">
       <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.29f1\Editor\Data\PlaybackEngines\WindowsStandaloneSupport\UnityEditor.WindowsStandalone.Extensions.dll</HintPath>
     </Reference>
+    <Reference Include="Unity.Collections.LowLevel.ILSupport">
+      <HintPath>Library\PackageCache\com.unity.collections@1.2.4\Unity.Collections.LowLevel.ILSupport\Unity.Collections.LowLevel.ILSupport.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.VisualScripting.IonicZip">
       <HintPath>Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll</HintPath>
     </Reference>
@@ -364,6 +367,9 @@
     </Reference>
     <Reference Include="Unity.VisualScripting.Antlr3.Runtime">
       <HintPath>Library\PackageCache\com.unity.visualscripting@1.8.0\Runtime\VisualScripting.Flow\Dependencies\NCalc\Unity.VisualScripting.Antlr3.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="Mono.Cecil">
+      <HintPath>Library\PackageCache\com.unity.nuget.mono-cecil@1.10.1\Mono.Cecil.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Android.Types">
       <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.29f1\Editor\Data\PlaybackEngines\AndroidPlayer\Unity.Android.Types.dll</HintPath>

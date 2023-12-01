@@ -58,34 +58,34 @@
   <ItemGroup>
     <Compile Include="Assets\Plugins\CW\LeanGUI\Required\Scripts\LeanTooltip.cs" />
     <Compile Include="Assets\Plugins\CW\LeanGUI\Required\Scripts\LeanOrientation.cs" />
-    <Compile Include="Assets\Plugins\CW\LeanGUI\Required\Scripts\LeanToggle.cs" />
     <Compile Include="Assets\Plugins\CW\LeanGUI\Required\Scripts\LeanSelection.cs" />
-    <Compile Include="Assets\Plugins\CW\LeanGUI\Required\Scripts\LeanResize.cs" />
     <Compile Include="Assets\Plugins\CW\LeanGUI\Required\Scripts\LeanSnapEvent.cs" />
-    <Compile Include="Assets\Plugins\CW\LeanGUI\Required\Scripts\LeanMoveToTop.cs" />
     <Compile Include="Assets\Plugins\CW\LeanGUI\Required\Scripts\LeanSelectionManager.cs" />
     <Compile Include="Assets\Plugins\CW\LeanGUI\Required\Scripts\LeanButton.cs" />
-    <Compile Include="Assets\Plugins\CW\LeanGUI\Required\Scripts\LeanSwitch.cs" />
-    <Compile Include="Assets\Plugins\CW\LeanGUI\Required\Scripts\LeanGui.cs" />
-    <Compile Include="Assets\Plugins\CW\LeanGUI\Required\Scripts\LeanHitbox.cs" />
-    <Compile Include="Assets\Plugins\CW\LeanGUI\Required\Scripts\LeanSelectionHighlight.cs" />
     <Compile Include="Assets\Plugins\CW\LeanGUI\Required\Scripts\LeanWindow.cs" />
     <Compile Include="Assets\Plugins\CW\LeanGUI\Required\Scripts\LeanJoystick.cs" />
-    <Compile Include="Assets\Plugins\CW\LeanGUI\Required\Scripts\LeanSwipe.cs" />
     <Compile Include="Assets\Plugins\CW\LeanGUI\Required\Scripts\LeanSafeArea.cs" />
     <Compile Include="Assets\Plugins\CW\LeanGUI\Required\Scripts\LeanSizer.cs" />
-    <Compile Include="Assets\Plugins\CW\LeanGUI\Required\Scripts\LeanSelectable.cs" />
-    <Compile Include="Assets\Plugins\CW\LeanGUI\Required\Scripts\LeanSnap.cs" />
     <Compile Include="Assets\Plugins\CW\LeanGUI\Required\Scripts\LeanConstrainToParent.cs" />
     <Compile Include="Assets\Plugins\CW\LeanGUI\Required\Scripts\LeanWindowCloser.cs" />
     <Compile Include="Assets\Plugins\CW\LeanGUI\Required\Scripts\LeanJoystickKey.cs" />
     <Compile Include="Assets\Plugins\CW\LeanGUI\Required\Scripts\LeanPulse.cs" />
-    <Compile Include="Assets\Plugins\CW\LeanGUI\Required\Scripts\LeanTooltipData.cs" />
     <Compile Include="Assets\Plugins\CW\LeanGUI\Required\Scripts\LeanHover.cs" />
+    <Compile Include="Assets\Plugins\CW\LeanGUI\Required\Scripts\LeanDrag.cs" />
+    <Compile Include="Assets\Plugins\CW\LeanGUI\Required\Scripts\LeanToggle.cs" />
+    <Compile Include="Assets\Plugins\CW\LeanGUI\Required\Scripts\LeanResize.cs" />
+    <Compile Include="Assets\Plugins\CW\LeanGUI\Required\Scripts\LeanMoveToTop.cs" />
+    <Compile Include="Assets\Plugins\CW\LeanGUI\Required\Scripts\LeanSwitch.cs" />
+    <Compile Include="Assets\Plugins\CW\LeanGUI\Required\Scripts\LeanGui.cs" />
+    <Compile Include="Assets\Plugins\CW\LeanGUI\Required\Scripts\LeanHitbox.cs" />
+    <Compile Include="Assets\Plugins\CW\LeanGUI\Required\Scripts\LeanSelectionHighlight.cs" />
+    <Compile Include="Assets\Plugins\CW\LeanGUI\Required\Scripts\LeanSwipe.cs" />
+    <Compile Include="Assets\Plugins\CW\LeanGUI\Required\Scripts\LeanSelectable.cs" />
+    <Compile Include="Assets\Plugins\CW\LeanGUI\Required\Scripts\LeanSnap.cs" />
+    <Compile Include="Assets\Plugins\CW\LeanGUI\Required\Scripts\LeanTooltipData.cs" />
     <Compile Include="Assets\Plugins\CW\LeanGUI\Required\Scripts\LeanSelectionPriority.cs" />
     <Compile Include="Assets\Plugins\CW\LeanGUI\Required\Scripts\LeanShake.cs" />
     <Compile Include="Assets\Plugins\CW\LeanGUI\Required\Scripts\LeanConstrainAnchoredPosition.cs" />
-    <Compile Include="Assets\Plugins\CW\LeanGUI\Required\Scripts\LeanDrag.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Plugins\CW\LeanGUI\LeanGUI.asmdef" />
@@ -340,6 +340,9 @@
     <Reference Include="UnityEditor.WindowsStandalone.Extensions">
       <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.29f1\Editor\Data\PlaybackEngines\WindowsStandaloneSupport\UnityEditor.WindowsStandalone.Extensions.dll</HintPath>
     </Reference>
+    <Reference Include="Unity.Collections.LowLevel.ILSupport">
+      <HintPath>Library\PackageCache\com.unity.collections@1.2.4\Unity.Collections.LowLevel.ILSupport\Unity.Collections.LowLevel.ILSupport.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.VisualScripting.IonicZip">
       <HintPath>Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll</HintPath>
     </Reference>
@@ -369,6 +372,9 @@
     </Reference>
     <Reference Include="Unity.VisualScripting.Antlr3.Runtime">
       <HintPath>Library\PackageCache\com.unity.visualscripting@1.8.0\Runtime\VisualScripting.Flow\Dependencies\NCalc\Unity.VisualScripting.Antlr3.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="Mono.Cecil">
+      <HintPath>Library\PackageCache\com.unity.nuget.mono-cecil@1.10.1\Mono.Cecil.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Android.Types">
       <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.29f1\Editor\Data\PlaybackEngines\AndroidPlayer\Unity.Android.Types.dll</HintPath>
