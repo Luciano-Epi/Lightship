@@ -2,6 +2,7 @@
   "dependencies": {
     "com.nianticlabs.lightship": "https://github.com/niantic-lightship/ardk-upm.git",
     "com.nianticlabs.lightship.sharedar": "file:C:/Users/Luciano_Flores/Downloads/sharedar-upm-3.1.0.tgz",
+    "com.unity.2d.sprite": "1.0.0",
     "com.unity.cloud.gltfast": "https://github.com/atteneder/glTFast.git",
     "com.unity.collab-proxy": "2.0.5",
     "com.unity.feature.development": "1.0.1",
